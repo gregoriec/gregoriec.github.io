@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+<head>
+		<title>Portfolio Gregorie</title>
+<style>
+body {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+	position: fixed;
+	width: 100%;
+	top:0;
+}
+li {
+	float:left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	background-color: darkred;
+}
+.active {
+	background-color: red;
+}
+footer{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+cv {
+	margin-top: 30px;
+}
+.button {
+    background-color: darkred;
+    border: none;
+    color: white;
+    padding: 13px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+	border-radius: 8px;
+}
+</style>
+</head>
+<body style= "background-color:black">
+	<ul>
+		<li style="border-right: 1px solid white; width:100px"><a href="index.html">Home</a></li>
+		<li style="border-right: 1px solid white; width: 75px"><a class="active" href="CV.html">CV</a></li>
+		<li style="border-right: 1px solid white; widthL 75px"><a href="About Me.html">About Me</a></li>
+		<li style="float:right;border-left:1px solid white"><a href="Contact.html">Contact</a></li>
+	</ul>
+	<div class="cv"style="text-align:center;padding:20px;margin-top:30px;height:100%;background-color:black;color: white">
+        <div>
+            <h1>Persoonlijke informatie:</h1>
+			<p style="font-size:20px;"> 
+				Naam: Gregorie Candelaria<br>
+				Adres: Korhaanstraat 133A<br>
+				Postcode: 3083 XM<br>
+				Woonplaats: Rotterdam<br>
+				Telefoon: +316 406 399 47<br>
+				E-mailadres: gregoriecand@gmail.com<br>
+			</p>
+        </div>
+        <div style="background-color:black; color:white">
+            <h1>Huidige Opleiding:</h1>
+			<p style="font-size:20px;"> 
+				Naam: Informatica<br>
+				School: Hogeschool Rotterdam CMI<br>
+				Adres: Wijnhaven 107 <br>
+				Postcode: 3011 WN <br>
+				Plaats: Rotterdam <br>
+				Telefoonnummer: 010 794 8000<br>
+			</p>
+			<a class="button" href="CVgreg.docx" download>Download CV</a>
+        </div>
+	</div>
+</body>
+</html>
